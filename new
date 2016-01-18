@@ -1,0 +1,15 @@
+
+# Clone your Github repository:
+git clone "https://github.com/angular/angular.js.git"
+# Go to the AngularJS directory:
+cd angular.js
+# Add the main AngularJS repository as an upstream remote to
+your repository:
+git remote add upstream
+"https://github.com/angular/angular.js.git"
+# Install node.js dependencies:
+npm install
+# Install bower components:
+bower install
+# Build AngularJS:
+grunt package
